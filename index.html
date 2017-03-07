@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fancy Mad Libs Y'all</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<script src="lib\jquery-3.1.1.min.js" charset="utf-8"></script>
+	<script src="script.js" charset="utf-8"></script>
+</head>
+<body ng-app>
+	<h1> Fancy Mad Libs </h1>
+	<form id="madLibs">
+
+		Proper Noun: <input type="text" ng-model="noun1"><br>
+		Noun: <input type="text" ng-model="noun2"><br>
+		Noun: <input type="text" ng-model="noun3"><br>
+		Drink Name: <input type="text" ng-model="noun4"><br>
+		Drink Name: <input type="text" ng-model="noun5"><br>
+		Drink Name: <input type="text" ng-model="noun6"><br>
+		Noun: <input type="text" ng-model="noun7"><br>
+		Adjective1: <input type="text" ng-model="adjective1"><br>
+		Adjective2: <input type="text" ng-model="adjective2"><br>
+		Adjective3: <input type="text" ng-model="adjective3"><br>
+		Adjective4: <input type="text" ng-model="adjective4"><br>
+		Action Verb: <input type="text" ng-model="verb"><br>
+		<button id='show'>Submit</button><button id='clear'>Clear</button>
+	
+	</form>
+
+		<p id='song'>First thing's first, {{noun1}}'s the realest<br>
+		Drop this and let the whole {{noun2}} feel it <br>
+		And I'm still in the Murda Bizness<br>
+		I could hold you down, like I'm givin' lessons in physics<br>
+		You should want a {{adjective1}} {{noun3}} like this<br>
+		Drop it low and pick it up just like this <br>
+		Cup of {{noun4}}, cup of {{noun5}}, cup of {{noun6}}<br>
+		High heels, somethin' worth a half a ticket on my {{noun7}}<br>
+		Takin' all the liquor straight, never {{verb}} that<br>
+		Rooftop like we bringin' '88 back<br>
+		Bring the hooks in, where the bass at?<br>
+		Champagne spillin', you should taste that<br>
+		<br>
+		I'm so {{adjective2}}<br>
+		You already know<br>
+		I'm in the {{adjective3}} lane<br>
+		From L.A. to Tokyo<br>
+		I'm so {{adjective4}}<br>
+		Can't you taste this gold? <br>
+		Remember my name<br>
+		'Bout to blow </p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
+<script type="text/javascript">$.backstretch(["../ForFun/ForFun.detroit.jpg"]);</script>
+</body>
+</html>
